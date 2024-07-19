@@ -16,19 +16,16 @@ Since our team focused on mechanisms of brain-specific effects of musical traini
 
 TBSS was used for voxel-wise analysis of whole brain DTI measures, t-statistical maps of FA and MD group differences (composers vs. controls) of TBSS results views overlaid on the MNI template was shown in Figure 1. We applied a threshold range of 0.2 to 0.8 for the FA and MD values, with the aim of excluding peripheral tracts exhibiting notable inter-subject variability and potential partial volume effects with grey matter. Figure 1(a) shows that the composer had significantly greater FA values than controls for structures such as the corpus callosum knee, corpus callosum trunk, corpus callosum compression, cerebral peduncle, anterior branch of the internal capsule, the posterior branch of the internal capsule, anterior radioulnar corona, epithalamus radiation and so on. Figure 1(b) shows that composers had significantly greater MD values than controls for structures such as the anterior radial crown, superior radial crown, posterior radial crown, anterior branch of the internal capsule, the posterior branch of the internal capsule, splenium of the corpus callosum, superior longitudinal fasciculus, and superior frontal occipital fasciculus, etc.
 
-![许多不同颜色的窗户  低可信度描述已自动生成](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
 
 #### *Analysis of Probabilistic Tracer* 
 
 The results of probabilistic tracing in diffusion tensor imaging of composers and controls are shown in Figure 2, which shows that fiber bundles originating from ROI have a higher probability passing through more areas compared to the control group. The seed point (starting point) was chosen as the ROI of the orbital frontal cortex. The colored voxel dots (red and yellow) correspond to the voxels that the fiber bundle has a probability of passing through, with red to yellow indicating weak to strong probability of passing through. The fiber tracts from the seed point cover the entire left frontal region and even extend to the parietal and temporal regions. In contrast, in the non-musician group, the fiber tracts from the seed point (frontal, middle gyrus, orbitalis) only reach the frontal middle and inferior gyrus. At the level of the fiber tracts, in composers, the fiber tracts from the seed point to the regions of the anterior radial crown, superior radial crown, corpus callosum, splenium of the corpus callosum, corpus callosum compression, anterior branch of the internal capsule, posterior branch of the internal capsule, and external capsule. Moreover, the probabilistic tracing results showed that many regions in the control group were not significantly connected. In contrast, the composer's tracing results went through a large area of the brain and are therefore represented in this figure as results.
 
-![图片包含 游戏机, 交通  描述已自动生成](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
 
 #### *Functional Connectivity* 
 
 Functional connectivity results showed that the differences between composer and controls. As shown in Figure 3, compared with controls, the stronger connections of composers are concentrated in bilateral dorsal as well as ventral attention network, such as insula, inferior temporal gyrus, postcentral gyrus, inferior parietal marginal angular gyrus, etc. The lower connections of composers are concentrated in the left DMN, such as angular gyrus, middle temporal gyrus, medial superior frontal gyrus, middle occipital gyrus and so on. All function connection results are statistically checked（p<0.05）
 
-![图表, 雷达图  描述已自动生成](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
 
 ## Conclusion
 
