@@ -30,7 +30,7 @@ The results of probabilistic tracing in diffusion tensor imaging of composers an
 <figure>
 	<p><img src = "Probabilistic Tracer.png" style = "zoom:40%" /></p>
 	<figcaption>
-        <strong> Figure 1. Probabilistic tracings in diffusion tensor imaging of composers and controls. </strong>
+        <strong> Figure 2. Probabilistic tracings in diffusion tensor imaging of composers and controls. </strong>
     </figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Functional connectivity results showed that the differences between composer and
 <figure>
 	<p><img src = "Functional Connectivity.png" style = "zoom:40%" /></p>
 	<figcaption>
-        <strong> Figure 1. Functional connectivity has a significant difference between composers and controls. </strong>
+        <strong> Figure 3. Functional connectivity has a significant difference between composers and controls. </strong>
     </figcaption>
 </figure>
 
