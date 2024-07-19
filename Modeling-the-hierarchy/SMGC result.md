@@ -79,7 +79,7 @@ Table 2. The significant difference in activate regions in the activation ROIs (
 Using SMGC, we found that there existed diverse between-ROIs pathways from A1 to M1 and S1 among groups, the comparison revealed the trend that older control > older musicians > young control > young musicians. Moreover, we found the musicians have more directed stepwise from A1 to R1 and from R1 to S1. Stepwise hierarchical progression in the brains of four group subjects was shown in Figure 2.
 
 <figure>
-	<p><img src = "SMGC step.png" style = "zoom:40%" /></p>
+	<p><img src = "SMCG step.png" style = "zoom:40%" /></p>
 	<figcaption>
         <strong> Figure 1. The t map after each SMCG step within the four groups (one-sample one-tailed t-test p<0.05, FDR correction). </strong>
         <p>The figure shows the directed and hierarchical features from auditory regions the other activated ROIs, which requires only three steps to traverse all ROIs. </p>
