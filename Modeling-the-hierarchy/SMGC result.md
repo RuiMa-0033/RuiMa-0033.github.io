@@ -14,9 +14,13 @@
 
 ​    A first-level analysis was conducted in order to study the brain regions involved in the music reward task. We used individual fMRI data collected under the different music record stimulus. The results showed significant cortical and subcortical activations in brain areas related to sensory response (such as auditory, tactile and visual regions), reward response (such as basal ganglia). Thought the various task effect compared between high reward music and low reward music stimulus using paired t-test in second-level analysis, we found the distinguished 92 activating ROIs(p<0.05, FDR correction), after that we picked significant different activate regions among groups in the activation ROIs (p<0.05, FWE corrected) , the regions include: superior frontal gyrus, precentral gyrus, superior temporal gyrus, rostro posterior superior temporal sulcus, lateral occipital cortex, basal ganglia(dorsal caudate). 92 activation ROIs after paired t-tests were shown in Figure 1.
 
- 
-
-Figure 1. Activated regions after the missions of high/low award music stimulation after paired t-tests (p<0.05, FDR corrected). The task-related brain regions include primary sensory cortex, ventral caudate as well as prefrontal and other brain regions. 
+<figure>
+	<p><img src = "Activation.png" style = "zoom:40%" /></p>
+	<figcaption>
+        <strong> Figure 1. Activated regions after the missions of high/low award music stimulation after paired t-tests (p<0.05, FDR corrected). </strong>
+        <p>The task-related brain regions include primary sensory cortex, ventral caudate as well as prefrontal and other brain regions.</p>
+    </figcaption>
+</figure>
 
  
 
@@ -74,9 +78,13 @@ Table 2. The significant difference in activate regions in the activation ROIs (
 
 Using SMGC, we found that there existed diverse between-ROIs pathways from A1 to M1 and S1 among groups, the comparison revealed the trend that older control > older musicians > young control > young musicians. Moreover, we found the musicians have more directed stepwise from A1 to R1 and from R1 to S1. Stepwise hierarchical progression in the brains of four group subjects was shown in Figure 2.
 
- 
-
-Figure 2. The t map after each SMCG step within the four groups (one-sample one-tailed t-test p<0.05, FDR corrected). The figure shows the directed and hierarchical features from auditory regions the other activated ROIs, which requires only three steps to traverse all ROIs. 
+<figure>
+	<p><img src = "SMGC result.png" style = "zoom:40%" /></p>
+	<figcaption>
+        <strong> Figure 1. The t map after each SMCG step within the four groups (one-sample one-tailed t-test p<0.05, FDR correction). </strong>
+        <p>The figure shows the directed and hierarchical features from auditory regions the other activated ROIs, which requires only three steps to traverse all ROIs. </p>
+    </figcaption>
+</figure>
 
  
 
@@ -140,9 +148,13 @@ We performed the second-level analysis with classical inference implemented in S
 
 ​    We performed the Granger causality matrix through a stepwise approach. Some activation regions represented cognition regions(M1), auditory regions(A1), other sensory regions(S1) and reward regions(R1) were selected as the regions of interests (ROIs), which were used as the origin or destination looking for various pathways. In the first step, we obtained the ROIs where information significantly flowed away by a one-sample one-tailed t-test within the four groups (p<0.05, FDR correction), then we retained the ROIs owned top 5% of the t-value. In the second step, using the same t-test, we searched for the next level of effective delivery ROIs through the ROIs retained in the first step from the second GCM matrix, and retained ROI which at top 5% as well. In the next step, we continue the same approach until all activated ROIs were traversed.
 
- 
-
-Figure 3. Dynamic GCM extraction method. In brief, the calculation method is to obtain the effective activation points through second-order activation, and then calculate the dynamic GCM between pairs of BOLD signals in a window, the values in the matrix represent the size of the directed transfer of information from different ROIs, and the value of the transmission between two ROIs is obtained through anti-symmetric processing. After that, the seed points were selected for each group of the GCM matrix, and a one-sample, one-tailed t-test is performed after the z-score transformation to set the threshold value for finding the next transmission valid ROIs, then brought them into the second matrix to recycle the processing, and finally obtain the brain region of interest connectivity status.
+<figure>
+	<p><img src = "SMGC step.png" style = "zoom:40%" /></p>
+	<figcaption>
+        <strong> Figure 1. Dynamic GCM extraction method.. </strong>
+        <p>In brief, the calculation method is to obtain the effective activation points through second-order activation, and then calculate the dynamic GCM between pairs of BOLD signals in a window, the values in the matrix represent the size of the directed transfer of information from different ROIs, and the value of the transmission between two ROIs is obtained through anti-symmetric processing. After that, the seed points were selected for each group of the GCM matrix, and a one-sample, one-tailed t-test is performed after the z-score transformation to set the threshold value for finding the next transmission valid ROIs, then brought them into the second matrix to recycle the processing, and finally obtain the brain region of interest connectivity status.</p>
+    </figcaption>
+</figure>
 
  
 
