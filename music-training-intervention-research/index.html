@@ -25,11 +25,22 @@
 <h3 id='statics-alff-prediction-model'>Statics ALFF prediction model</h3>
 <p>After performing the predictive model analyses, we found that statics ALFF value during high reward music task could predict the music training age during musicians (r = 0.66, p&lt;0.001). </p>
 <p>&nbsp;</p>
-<p>Figure 2. statics ALFF predicts the music training age among musicians’ group. The result of ALFF as features to predict music training age is shown on the line chart (r = 0.6636, p&lt;0.001). Filled circles were included in this correlation analysis indicate the individuals’ original and predict data. Solid line and dashed line with shadow represented the best-fitted line and 95% confidence interval of the Person’s correlation analysis, respectively. ALFF, amplitude of low-frequency fluctuation. </p>
+<figure>
+	<p><img src="prediction result.png" style="zoom:40%"></p>
+	<figcaption>
+        <strong> Figure 1. Statics ALFF predicts the music training age among musicians’ group. </strong>
+	<p> The result of ALFF as features to predict music training age is shown on the line chart (r = 0.6636, p&lt;0.001). Filled circles were included in this correlation analysis indicate the individuals’ original and predict data. Solid line and dashed line with shadow represented the best-fitted line and 95% confidence interval of the Person’s correlation analysis, respectively. ALFF, amplitude of low-frequency fluctuation.</p>
+    </figcaption>
+</figure>
 <h3 id='functional-connectivity-result'>Functional connectivity result</h3>
 <p>During the functional connectivity result, controls showed significant difference between younger controls and older controls when they listened to the favorite music, especially between frontal lobe to the other regions, which indicated that compare to the old groups, the young controls show more robust connections between these regions. However, during musicians, we didn’t find the significant difference in the functional connection during old and young.</p>
 <p>&nbsp;</p>
-<p>Figure 3. Functional connectivity significant difference results between younger controls and older controls (FDR correction, p&lt;0.05).</p>
+<figure>
+	<p><img src="functional connectivity.png" style="zoom:40%"></p>
+	<figcaption>
+        <strong> Figure 1. Functional connectivity significant difference results between younger controls and older controls (FDR correction, p&lt;0.05). </strong>
+    </figcaption>
+</figure>
 <p> </p>
 <h2 id='result-2'><strong>Result</strong></h2>
 <p>    We found that the value of ALFF in high award music could predict musicians’ music training years. Compared to musicians, control older adults had significantly lower ALFF values in the ventral caudate cortex than younger adults. In the meanwhile, connection between precentral gyrus and other region, especially in basal ganglia and sensory cortex were significant difference between younger controls and older controls. Older musicians outperformed older controls and showed comparable performance to younger musicians. However, musicians&#39; spontaneous activity in the prefrontal lobes decreased with age, whereas no differences were shown in the control group.</p>
@@ -44,7 +55,12 @@
 <h3 id='music-training-age-prediction'>Music training age prediction</h3>
 <p>We predicted the music training age for each participant in musicians using a general linear model (GLM) in order to investigate the relationship between statics ALFF during music reward task and expertise in music measured by music training age. First, we used statics ALFF value in musicians as features. We applied a leave-one-out cross-validation (LOOCV) to establish the reliable model. In each LOOCV, we considered one subject as the test data, the other was used as train data to build the prediction model. After that the left-behind subjects were used to examine the training model. Finally, we used the Pearson’s correlation between predict data and original data to determine whether static ALFF could predict the musicians’ training age. If the statical significance level of p&lt;0.05, we then considered that the statics ALFF could predict music training age among musicians’ group.</p>
 <p>&nbsp;</p>
-<p>Figure4. Schematic diagram of the music training age ALFF-based predictive model.</p>
+<figure>
+	<p><img src="Schematic diagram.png" style="zoom:40%"></p>
+	<figcaption>
+        <strong> Figure4. Schematic diagram of the music training age ALFF-based predictive model. </strong>
+    </figcaption>
+</figure>
 <h3 id='functional-connectivity-calculation'>Functional connectivity calculation</h3>
 <p>To investigate the functional connectivity (FC) between region of interest (ROI), The Pearson correlation coefficient (Fisher-z transformed) was used as two different regions’ connectivity. DynamicBC was used to perform FC among four groups during music award task, after functional connectivity matrix were established, two sample t-test was used to compare the results between young controls and older controls as well as between younger musicians and older musicians (FDR correction, p&lt;0.05). </p>
 <p> </p>
